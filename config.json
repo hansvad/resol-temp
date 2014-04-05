@@ -1,0 +1,20 @@
+var config = {
+	configVersion : 2,
+	language : 'en',
+	// host: host to connect to (IP address or host name)
+	host : '192.168.1.17',
+	// port: port to connect to (defaults to 7053)
+	port : 7053,
+	// password: remote access password (defaults to 'vbus')
+	password : 'vbus',
+	// logInterval: log interval in seconds
+	logInterval : 10,
+	textLogDirectory : '.',
+	textLogFilePattern : 'YYYYMMDD[.csv]',
+	textLogColumSeparator : '\t',
+	textLogLineSeparator : '\n',
+	textLogSeparateDateAndTime : false,
+	filter : '{}'
+
+};
+module.exports = config;
